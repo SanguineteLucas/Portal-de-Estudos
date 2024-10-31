@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Estudos para Ensino Médio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Portal de Estudos</h1>
+        <nav>
+            <ul>
+                <li><a href="#portugues">Língua Portuguesa</a></li>
+                <li><a href="#matematica">Matemática</a></li>
+                <li><a href="#geografia">Geografia</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#biologia">Biologia</a></li>
+                <li><a href="#fisica">Física</a></li>
+                <li><a href="#quimica">Química</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sessão Língua Portuguesa -->
+        <section id="portugues" class="subject-section">
+            <h2>Língua Portuguesa</h2>
+            <p>Explore tópicos de gramática, interpretação de texto e redação.</p>
+            <button onclick="loadContent('portugues')">Ver Conteúdo</button>
+            <button onclick="showQuestions('portugues')">Ver Perguntas</button>
+            <div id="content-portugues" class="content"></div>
+            <div id="questions-portugues" class="questions"></div>
+        </section>
+
+        <!-- Sessão Matemática -->
+        <section id="matematica" class="subject-section">
+            <h2>Matemática</h2>
+            <p>Explore álgebra, geometria, trigonometria e muito mais.</p>
+            <button onclick="loadContent('matematica')">Ver Conteúdo</button>
+            <button onclick="showQuestions('matematica')">Ver Perguntas</button>
+            <div id="content-matematica" class="content"></div>
+            <div id="questions-matematica" class="questions"></div>
+        </section>
+
+        <!-- Sessão Geografia -->
+        <section id="geografia" class="subject-section">
+            <h2>Geografia</h2>
+            <p>Explore geografia física, econômica e cartografia.</p>
+            <button onclick="loadContent('geografia')">Ver Conteúdo</button>
+            <button onclick="showQuestions('geografia')">Ver Perguntas</button>
+            <div id="content-geografia" class="content"></div>
+            <div id="questions-geografia" class="questions"></div>
+        </section>
+
+        <!-- Sessão História -->
+        <section id="historia" class="subject-section">
+            <h2>História</h2>
+            <p>Explore História Geral e História do Brasil.</p>
+            <button onclick="loadContent('historia')">Ver Conteúdo</button>
+            <button onclick="showQuestions('historia')">Ver Perguntas</button>
+            <div id="content-historia" class="content"></div>
+            <div id="questions-historia" class="questions"></div>
+        </section>
+
+        <!-- Sessão Biologia -->
+        <section id="biologia" class="subject-section">
+            <h2>Biologia</h2>
+            <p>Explore citologia, genética, ecologia e outros tópicos.</p>
+            <button onclick="loadContent('biologia')">Ver Conteúdo</button>
+            <button onclick="showQuestions('biologia')">Ver Perguntas</button>
+            <div id="content-biologia" class="content"></div>
+            <div id="questions-biologia" class="questions"></div>
+        </section>
+
+        <!-- Sessão Física -->
+        <section id="fisica" class="subject-section">
+            <h2>Física</h2>
+            <p>Explore mecânica, termodinâmica, óptica e outros tópicos.</p>
+            <button onclick="loadContent('fisica')">Ver Conteúdo</button>
+            <button onclick="showQuestions('fisica')">Ver Perguntas</button>
+            <div id="content-fisica" class="content"></div>
+            <div id="questions-fisica" class="questions"></div>
+        </section>
+
+        <!-- Sessão Química -->
+        <section id="quimica" class="subject-section">
+            <h2>Química</h2>
+            <p>Explore química orgânica, inorgânica, estequiometria e mais.</p>
+            <button onclick="loadContent('quimica')">Ver Conteúdo</button>
+            <button onclick="showQuestions('quimica')">Ver Perguntas</button>
+            <div id="content-quimica" class="content"></div>
+            <div id="questions-quimica" class="questions"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portal Educacional - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
